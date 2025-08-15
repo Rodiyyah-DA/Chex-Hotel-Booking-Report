@@ -16,14 +16,18 @@
 
 The Chex Hotel Yearly Report is a comprehensive business intelligence dashboard built in Power BI to monitor hotel performance metrics such as bookings, revenue, lead time, and customer distribution. This report provides management with actionable insights into operational trends, enabling data-driven decision-making to optimize sales channels, target profitable markets, and improve occupancy rates
 
+<img width="754" height="422" alt="RODIYYAH'S PROJECT 2" src="https://github.com/user-attachments/assets/ca9f5698-0c66-447b-8b45-b2c62b8a424e" />
+
 ### Data Sources
+
 ---
 
 The report uses hotel booking transactional data stored in a structured table format. Key data fields include:
 - Bookings Information (distribution channel, country, deposit type, assigned room type)
 - Revenue Data (charge amounts, lead times)
 - Customer Behavior (is_canceled, is_repeated_guest)
-- Calendar Table (date and year for time-based analysis)
+- Calendar Table (date and year for time-based analysis). Here is the link to the data [Download here](https://drive.google.com/file/d/16WveT0gXbJAOdhZTqVWui8P_prbX0mC5/view?usp=drivesdk)
+  
 The dataset was cleaned and transformed within Power BI using Power Query Editor, ensuring data integrity and proper relationships for accurate analytics.
 
 ### Problem Statement
@@ -54,6 +58,8 @@ The model follows a star schema approach:
 - Fact Table: Contains bookings and revenue metrics (Charge, lead time, distribution channel, country, etc.).
 - Dimension Table: Calendar table with Date and Year for time intelligence functions.
 - Relationship: One-to-many relationship between Calendar[Date] and Table[Date], ensuring proper filtering in time-based visuals.
+
+<img width="652" height="426" alt="Data modeling Project 2" src="https://github.com/user-attachments/assets/4029fccc-c83a-4770-bc05-4b2df50ae8fd" />
 
 ### Report Design and Visualization
 ---
