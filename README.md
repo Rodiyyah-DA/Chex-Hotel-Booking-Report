@@ -14,7 +14,7 @@
 ### Introduction
 ---
 
-The Chex Hotel Yearly Report is a comprehensive business intelligence dashboard built in Power BI to monitor hotel performance metrics such as bookings, revenue, lead time, and customer distribution. This report provides management with actionable insights into operational trends, enabling data-driven decision-making to optimize sales channels, target profitable markets, and improve occupancy rates
+The Chex Hotel Yearly Report is a comprehensive business intelligence dashboard built in Power BI to monitor hotel performance metrics such as bookings, revenue, lead time, and customer distribution. This report provides management with actionable insights into operational trends, enabling data-driven decision-making to optimize sales channels, target profitable markets, and improve occupancy rates.
 
 <img width="754" height="422" alt="RODIYYAH'S PROJECT 2" src="https://github.com/user-attachments/assets/ca9f5698-0c66-447b-8b45-b2c62b8a424e" />
 
@@ -29,6 +29,8 @@ The report uses hotel booking transactional data stored in a structured table fo
 - Calendar Table (date and year for time-based analysis). Here is the link to the data [Download here](https://drive.google.com/file/d/16WveT0gXbJAOdhZTqVWui8P_prbX0mC5/view?usp=drivesdk)
   
 The dataset was cleaned and transformed within Power BI using Power Query Editor, ensuring data integrity and proper relationships for accurate analytics.
+
+<img width="917" height="554" alt="Power Query Capture" src="https://github.com/user-attachments/assets/9164f10e-e719-4822-9818-96b3a4872464" />
 
 ### Problem Statement
 ---
